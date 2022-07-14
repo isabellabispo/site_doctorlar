@@ -1,0 +1,827 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+
+@viewport{
+    zoom: 1.0;
+    width: device-width;
+}
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    body{
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 1rem;
+        margin: 2rem;
+    }
+        
+        
+    
+/* header nav bar */ 
+    #header{
+        width: 100%;
+    }
+
+    .fixed-top{
+        padding: 9px 120px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1030;
+        background-color:var(--navbarcolor);
+        transition: "background" ease-out 0.2ms;  
+    }
+
+    #header .navbar-collapse{
+        width: auto;
+    }
+    
+    #header .nav-link{
+        text-transform: uppercase;
+        font-size: 80%;
+        padding-left: 0;
+        padding-right: 0;
+        color: whitesmoke;
+        font-family: "Roboto Flex";
+        border-bottom: solid 4px transparent;   
+    }
+
+    #header .navbar-toggler{
+        font-family: "Roboto Flex";
+    }
+
+    #header .nav-link:hover{
+       color: var(--hovernavbar);
+        border-bottom: solid 4px var(--hovernavbar);
+        font-family: "Roboto Flex";
+    }
+   
+
+/* carrossel */
+  #slider .carousel-item{
+    padding-top: 7rem;
+    padding-left: 2rem;
+    padding-right: 3em;
+    margin-bottom: 6rem;
+    border-radius: 4px;
+    }
+    button.carousel-control-prev{
+        margin-top: 6rem;
+    }
+    
+    button.carousel-control-next{
+        margin-top: 6rem;
+    }
+
+
+
+/*sobre o doctor lar*/
+    h1{
+        color: var(--titulos);
+        text-transform: uppercase;
+        margin-bottom: 3rem;
+    }
+        h3#text-about-doctorlar{
+        color: var(--titulos2);
+        margin-bottom: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    #h3.about{
+        margin-bottom: 0.9rem;
+    }
+
+    #text-about{
+        margin-left: 5%;
+        margin-bottom: 3rem;
+    }
+
+    #p-text-sobre-doctorlar{
+        font-size: 110%;
+        text-align: justify;
+    }
+
+    #text-about-doctorlar{
+    text-align: justify;
+    margin-top: -3;
+    }
+
+    #img-doctorlar{
+        margin-left: 2rem;
+        margin-right: -3em;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        border-radius: 4px;
+       filter: contrast(85%);
+
+    }
+
+
+/*figuras*/
+    .col-2-mx-1{
+        margin-top: 1rem;
+        display: flex;
+        margin-left: -1rem;
+        position: relative;
+        min-height: 1px;
+     
+        }
+        .col-2-mx-1{
+            vertical-align: inherit;
+        }
+
+    #imgone{
+        margin-bottom: 4rem;
+    }
+
+    hr.mb-3#hr-first{
+        width: 78%;
+        margin-bottom: 10rem;
+        margin-block-start: 0.5rem;
+        margin-block-end: 0.5rem;
+        margin-inline-start: auto;
+        margin-inline-end:auto;
+        overflow: hidden;
+    }
+
+    #figuresone{
+        margin-left: 4rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    
+
+    #img-mission{
+        margin-left: 1rem;
+        margin-bottom: 0rem;
+        margin-top: -0.5rem;
+    }
+
+    #img-vision{
+        margin-bottom: 0.5rem;
+        margin-left: 1.3rem;
+    }
+    #img-value{
+        margin-left: 1.5rem;
+        margin-top: -0.5rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .col-auto{
+        margin-left: 6rem;
+        margin-top: -3rem;
+    }
+
+    #p-mission{
+        text-align: justify;
+        margin-left: 0rem;
+        font-size: 100%;
+        padding: 0 1rem 0 0;
+    }
+
+    #p-vision{
+        text-align: justify;
+        margin-left: 0rem;
+    }
+
+    #p-value{
+        text-align: justify;
+        margin-left: 0rem;
+        padding: 0 1rem 0 0;
+          
+    }
+
+    #colvision{
+        margin-left: 7rem;
+        font-size: 80%;
+    }
+
+    #h3mission{
+        font-size: 140%;
+        margin-bottom: 1.3rem;
+        margin-top: 0.5rem;
+        text-transform: uppercase;
+        margin-left: 0.2rem;
+    }
+
+    #h3vision{
+        font-size: 185%;
+        margin-left: -0.5rem;
+        margin-top: 0.1rem;
+        text-transform: uppercase;
+    }
+
+    #h3value{
+        font-size: 138%;
+        margin-top: 0.3rem;
+        text-transform: uppercase;
+        margin-left: 0.2rem;
+    }
+
+    hr.mb-3#hr-second{
+        width: 40%;
+        margin-left: 25rem;
+        margin-bottom: 5rem;
+    }
+
+
+/*nosso plano*/
+    #plane{
+        margin-top:1rem;
+        
+    }
+
+    #h-plane{
+        margin-top: 1rem;
+        color: var(--sixty);
+    }
+
+    .col-2-mx-1#um{
+    margin-top: -1rem;
+    display: flex;
+    margin-left: -1rem;
+    }
+
+
+
+/*serviços titulo*/
+    #serviceshtwo{
+        margin-top: 1rem;
+        text-transform: uppercase;
+        color: var(--titulos);
+        margin-bottom: 5rem;
+    }
+
+/*cards- serviços*/
+    section#cards-figure{
+    margin-bottom: 8rem;
+    }
+
+  
+    #card{
+        color:white;
+    }
+
+    #pcardfirst{
+        text-align: justify;
+    }
+    #cardtwo{
+        margin-left: 9rem;
+    }
+    
+
+  .card{
+        background-color: #e5e5f842;
+        margin-left: 2rem;
+        font-size: 79%;
+        border-color: rgba(243, 237, 237, 0);
+       
+    }
+    #imghouse{
+        margin-left: 3rem;
+        margin-top: 2rem;
+       
+    }
+    #h5cardtitlehouse{
+        margin-top: 1rem;
+        
+
+    }
+    #pcardtexthouse{
+      text-align: justify;
+        margin-top: 0.8rem;
+
+    }
+    #pcardtextele{
+        text-align: justify;
+        margin-top: 0.8rem;
+      
+
+    }
+    #imgmedicocelular{
+    margin-left: 2.5rem;
+    margin-top: 0rem;
+    }
+
+    #imgtel{
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    #h5cardmedicocelular{
+        margin-top: -0.7rem;
+        margin-bottom: 1rem;
+    }
+
+
+
+/*icones cards serviços*/
+    #cardes{
+    border: #efeffa;
+    margin-left: 3rem;
+    }
+    #cardes:hover{
+        padding: 0 15px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        border: solid 1px var(--fourth);
+        height: 270px;
+        transform: ease-out all 0.2s;
+        margin-left: 0.2rem;
+    }
+
+    #cardes:hover{
+        transform: scale(1.2);
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.281);
+        border-bottom: solid 4px transparent;
+    }
+
+    #cardes:hover img{
+    filter: none; 
+    opacity: 100%;
+    filter: contrast(120%);
+    }
+
+    #cardes img{
+        filter: var( --sixty);
+        opacity: 0.6;
+    }
+
+    #cards-figures-two{
+        margin-left: 2rem;
+        margin-top: 8rem;
+        font-size: 95%;
+        margin-right: 6rem;
+    }
+
+    #img-bandeira{
+        margin-left: 3rem; 
+        
+    } 
+    #h6-card-bandeira{
+        margin-top: -0.7rem;
+        margin-bottom: 1rem;
+    }
+
+
+    #img-certo{
+        margin-left: 3rem;
+        margin-bottom: 0.rem;
+    }
+
+    #h6-card-certo{
+        margin-top: -0.7rem;
+        margin-bottom: 1rem;
+    }
+
+    #img-prontuario{
+        margin-left: 2rem; 
+
+    }
+
+    #h6-card-prontuario{
+        margin-top: -0.7rem;
+        margin-bottom: 1rem;
+    }
+
+    #cards-figures-three{
+    margin-left: 2rem;
+        margin-top: 5rem;
+        font-size: 95%;
+        margin-right: 6rem;
+    }
+
+    #img-hospital{
+        margin-left: 4rem;
+    }
+    #h6-card-hospital{
+        margin-top: -0.7rem;
+        margin-bottom: 1rem; 
+    }
+
+    #img-carro{
+        margin-top: 0.5rem;
+        margin-left: 3.5rem;
+        margin-bottom: -0.8rem;
+    }
+
+    #h6-card-carro{
+        margin-top: -0.7rem;
+        margin-bottom: 0.8rem; 
+    }
+
+    #img-lab{
+        margin-top: 1rem;
+        margin-left: 3rem;
+        margin-bottom: -0.5rem;
+    }
+
+    #cards-figures-four{
+        margin-left: -1rem;
+        margin-top: 5rem;
+        font-size: 95%;
+    }
+
+    #img-wlabel{
+        margin-left: 3.5rem;
+        margin-top: 0.7rem;
+        margin-bottom: -0.8rem;
+    }
+
+    #img-remedio{
+        margin-top: 0rem;
+        margin-left: 3rem;
+    }
+
+
+/* como funciona */
+    section#funcionamento{
+        margin-bottom: 6rem;
+
+    }
+
+    #h2-como-funciona{
+        text-transform: uppercase;
+        color: var( --titulos);
+        margin-bottom: 4rem;
+    }
+
+    #videos-doctorlar{
+        margin-left: 3rem;
+    }
+
+    video#video-paciente{
+        border-radius: 10px;
+    }
+
+    video#video-medico{
+        border-radius: 10px;
+    }
+
+    #h5-para-pacientes{
+        text-transform: uppercase;
+        margin-left: 7.5rem;
+        text-align: justify;
+        margin-top: 1rem;
+        color: var(--titulos2)
+    }
+
+    #h5-para-medicos{
+        text-transform: uppercase;
+        margin-left: 7.5rem;
+        text-align: justify;
+        margin-top: 1rem;
+        color: var(--titulos2)
+    }
+
+    #p-para-pacientes{
+        margin-left: 0.5rem;
+        color: var(--pretosuave);
+    }
+
+    #p-para-medicos{
+        margin-left: 1rem;
+        color: var(--pretosuave);
+    }
+
+    #h5-duvidas{
+        margin-left: -3rem;
+        margin-top: 3rem;
+        color:var(--pretosuave);
+    }
+
+    #a-faq{
+        color: var(--titulos)
+    }
+
+    #h2-faca-parte-medicos{
+        color: var( --titulos);
+        text-transform: uppercase;
+    }
+
+    #p-faca-parte-medicos{
+        padding: 1rem;
+        justify-content: center;
+        color: var(--pretosuave);
+    }
+
+    #medico-felipe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        overflow: hidden;  
+    }
+
+    #h2-medico-felipe{
+        justify-content: center;
+        color: rgba(39, 38, 38, 0.925);
+    }
+
+
+    #medica-amanda{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        overflow: hidden;  
+    }
+
+    #medico-doctorlar{
+        text-align: center;
+        justify-items: center;
+        color: rgba(17, 16, 16, 0.39);
+    }
+
+    #medica-doctorlar{
+        text-align: center;
+        justify-items: center;
+        color: rgba(17, 16, 16, 0.39);
+    }
+
+
+
+/*botoes redes sociais*/
+    #button-tw{
+        margin-left: -1rem;
+        margin-top: 1rem;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 70%;
+        overflow: hidden;  
+        background-color: #fff;
+        border: solid transparent;
+    }
+
+    #button-tw:hover{
+        filter: contrast(190%);
+    }
+
+    #button-face{
+        margin-top: -5.7rem;
+        margin-left: 4rem;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 70%;
+        overflow: hidden;  
+        background-color: #fff;
+        border: solid transparent;
+    }
+
+    #button-face:hover{
+        filter: contrast(190%);
+    }
+
+    #button-inst{
+        margin-top: -5.7rem;
+        margin-left: 9rem;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 70%;
+        overflow: hidden;  
+        background-color: #fff;
+        border: solid transparent;
+    }
+
+    #button-inst:hover{
+        filter: contrast(130%);
+    }
+
+
+/*botao cadastro*/
+    #a-button-cadastro{
+        justify-content: center;
+        margin-top: -2rem;
+        padding: 1rem;
+        width: 200px;
+        background-color: var(--botoeslaranja);
+        border: solid transparent;
+        border-radius: 4px;
+    }
+
+    #a-button-cadastro:hover{
+        background-color: var(--titulos);
+    }
+
+
+/*dowload app*/
+    #h4-baixe-aplicativo{
+    margin-top: 8rem;
+    margin-bottom: -1rem;
+        color: var(--sixty);
+        text-transform: uppercase;
+    }
+
+    #dowload{
+        margin-bottom: 3rem
+    }
+
+    #play-buton{
+        align-items: center;
+        border-radius: 30%;
+        overflow: hidden;  
+        background-color: #fff;
+        border: none;
+        display:inline-flex
+    }
+
+    #apple-button{
+        align-items: center;
+        padding: 1rem; 
+        border-radius: 30%;
+        overflow: hidden;  
+        background-color: #fff;
+        border: none; 
+        display: inline-flex;
+    }
+
+
+/*parceiros*/
+    #h2-parceiros{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        color: var(--titulos);
+        text-transform: uppercase;
+    }
+
+    #redes-parceiros{
+        padding: 1rem;
+        margin-bottom: 4rem;
+    }
+
+
+/*midia e reconhecimento*/
+    #h5-mreconhecimento{
+        padding: 2rem;
+        color: var(--pretosuave);
+    }
+
+    #sebrae{
+        border-radius: 6px;
+        margin-bottom: 6rem;
+    }
+    
+
+/*banner doctorlar*/
+    #bannerdoc{
+        border-color: #0b6dc9;
+        border-style: groove;
+    }
+
+
+
+/*section time*/
+    section#sobre-nosso-time{
+        margin-bottom: 8rem;
+    }
+
+    #img-drmohamad{
+        border-radius: 0 7rem 0 0;
+    
+    }
+    .sobre-drmohamad{
+        text-align: justify;
+    }
+
+    #h6-drmohamad{
+        color: var(--pretosuave);
+    }
+    #p-drmohamad{
+        padding: 0 1rem 0 0;
+        color: var(--pretotextoclaro);
+    }
+
+    #img-edy{
+        border-radius: 0 7rem 0 0;
+    }
+    .sobre-edy{
+        text-align: justify;
+    }
+
+    #h6-edy{
+        color: var(--pretosuave);
+    }
+    #p-edy{
+        padding: 0 1rem 0 0;
+        color:var(--pretotextoclaro);
+    }
+
+    #luiz-marco{
+        margin-top: 2rem;
+    }
+
+    #img-luiz{
+        border-radius: 0 7rem 0 0;
+    }
+
+    .sobre-luiz{
+        text-align: justify;
+    }
+
+    #h6-luiz{
+        color: var(--pretosuave);
+    }
+
+    #p-luiz{
+        padding: 0 1rem 0 0;
+        color:var(--pretotextoclaro);
+    }
+
+    #img-marco{
+        border-radius: 0 7rem 0 0;
+    }
+
+    .sobre-marco{
+        text-align: justify;
+    }
+
+    #h6-marco{
+        color: var(--pretosuave);
+    }
+
+    #p-marco{
+        padding: 0 1rem 0 0;
+        color:var(--pretotextoclaro)  
+    }
+
+
+
+/*contato form*/
+    #h2-fale-conosco{
+        color: var(--titulos);
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+    }
+
+    #form-box{
+        margin-left: 4rem;
+        width: 85%;
+        height: 3rem;
+        border-color: var(--borderform);
+    }
+
+    #form-message{
+        width: 90%;
+        height: 12rem;
+        border-color: var(--borderform);
+    }
+
+    #a-button-form{
+        justify-content: center;
+        margin-top: 1rem;
+        padding: 1rem;
+        width: 140px;
+        background-color: var(--botoeslaranja);
+        border: solid transparent;
+        border-radius: 4px;
+        margin-bottom: 3rem;
+    }
+
+
+/*botao enviar*/
+    #a-button-form:hover{
+        background-color: var(--titulos);
+    }
+
+
+/*footer*/
+    #solucoes{
+        color:var(--pretosuave);
+    }
+
+    #politica{
+        color: var(--pretosuave);
+    }
+
+
+/*wpp botao*/
+
+    #span-wpp {
+        z-index: 999;
+        display: inline-block;
+        position: fixed;
+        bottom: 65px;
+        right: 90px;
+        width: 65px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 17px;
+        text-align: center;
+        border-radius: 50%;
+        background-clip: padding-box;
+        color: #063e72e0;
+        opacity: 80%;
+        filter:grayscale(20%);
+    }
+
+    #span-wpp:hover{
+        filter: contrast(130%);
+    }
