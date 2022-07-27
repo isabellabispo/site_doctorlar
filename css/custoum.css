@@ -13,7 +13,8 @@
     body{
         font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         font-size: 1rem;
-        margin: 2rem;
+        margin-right: 3rem;
+        margin-bottom: 2rem;
     }
         
         
@@ -100,6 +101,8 @@
     #p-text-sobre-doctorlar{
         font-size: 110%;
         text-align: justify;
+      
+        
     }
 
     #text-about-doctorlar{

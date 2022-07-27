@@ -6,7 +6,7 @@
     }
 }
 
-@media (max-width: 763px ){
+@media (max-width: 789px ){
 #bannerdoc{
     display: none;
 }
@@ -45,5 +45,13 @@
 }
 }
 
-
-
+@media (max-width:991px){
+    #p-text-sobre-doctorlar{
+        width: 80%;
+        text-align: justify;
+        margin-right:  4rem;
+    }
+    #p-vision{
+        margin-right:  2rem;
+    }
+}
