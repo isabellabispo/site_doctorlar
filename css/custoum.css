@@ -13,7 +13,7 @@
     body{
         font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         font-size: 1rem;
-        margin-right: 3rem;
+        
         margin-bottom: 2rem;
     }
         
@@ -37,7 +37,17 @@
     #header .navbar-collapse{
         width: auto;
     }
+   
+    span.navbar-toggler-icon-disable{
+        color: #efeffa;
+    }
+#menu{
+    color: #fff;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifS;
     
+}
     #header .nav-link{
         text-transform: uppercase;
         font-size: 80%;
@@ -50,14 +60,19 @@
 
     #header .navbar-toggler{
         font-family: "Roboto Flex";
+        border-color: var(--colorbtnmenu);
+        border-width: 2px;
+       
     }
 
     #header .nav-link:hover{
        color: var(--hovernavbar);
-        border-bottom: solid 4px var(--hovernavbar);
+        border-bottom: solid 0px var(--hovernavbar);
         font-family: "Roboto Flex";
+        border-color: none;
     }
-   
+  
+    
 
 /* carrossel */
   #slider .carousel-item{
@@ -258,7 +273,7 @@
 
 /*cards- serviços*/
     section#cards-figure{
-    margin-bottom: 8rem;
+   
     }
 
   
@@ -307,6 +322,10 @@
     margin-top: 0rem;
     }
 
+    #medico-card-celular{
+        margin-top: 1.5rem;
+    }
+
     #imgtel{
         margin-left: 1rem;
         margin-top: 1rem;
@@ -321,7 +340,6 @@
 
 /*icones cards serviços*/
     
-
     #cardes{
     border: #efeffa;
     margin-top: 1rem;
