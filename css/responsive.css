@@ -25,9 +25,15 @@
 @media (min-width: 992px) {
     #header .nav-link {
     margin-left: 35px;
-   
     }
+    #mais-servicos{
+        display: none !important
+    }
+    
 }
+
+
+
 
 @media only screen and (max-width: 789px ){
 #bannerdoc{
@@ -85,6 +91,7 @@
     #h5-duvidas{
         margin-left: 1rem;
     }
+
 }
     
 
