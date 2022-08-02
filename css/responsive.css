@@ -1,115 +1,154 @@
-
-
-@media (max-width: 580px) {
-    #text-about {
-     margin-left: -2rem;
-     margin-right: -1rem;
-     }
-     #slider{
-        margin-top: 2rem;
-        }
- }
-
-
-@media (max-width: 508px) {
-    #text-about {
-     margin-left: 0.5rem;
-     }
-     #sobre-nosso-time{
-        margin-left: 1rem;
-        }
- }
-
-
-
-@media (min-width: 992px) {
-    #header .nav-link {
-    margin-left: 35px;
-    }
-    #mais-servicos{
-        display: none !important
-    }
     
-}
-
-
-
-
-@media only screen and (max-width: 789px ){
-#bannerdoc{
-    display: none !important;
-}
-}
-  
-@media (max-width:767px){
-    #form-box{
-        margin-left: 2rem;
-    }
-    #form-message{
-        margin-left: 2rem;
-        width: 85%;
-    }
-}
-@media (max-width:490px){
-    #card-alinhar{
-        margin-left: 1rem;
-    }
-
-    #card-alinhar2{
-        margin-left: 1rem;
-     
-    }
-    #figuresone{
-        width: 100%;
-    }
-}
-
-
-
-@media (max-width: 991px){
-#text-about-doctorlar{
     
-    text-align: center;
-}
-    #p-text-sobre-doctorlar{
+    @media (min-width: 992px) {
+        #header .nav-link {
+        margin-left: 40px;
+        }
+
+        #mais-servicos{
+            display: none !important
+        }
+        #hr-tree{
+            display: none !important
+        }
+        #media-form{
+            display: none !important
+        }
+        #a-button-form-responsive{
+            display: none !important
+        }
+        #h2-fale-conosco-responsive{
+            display: none !important
+        }
+       
+    }
+
+    @media (max-width: 580px) {
+        #text-about {
+        margin-left: -2rem;
+        margin-right: -1rem;
+        }
+        #slider{
+            margin-top: 2rem;
+            }
+    }
+
+
+    @media (max-width: 508px) {
+        #text-about {
+        margin-left: 0.5rem;
+        }
+
+        #sobre-nosso-time{
+            margin-left: 1rem;
+        }
+    }
+
+    /* SUMIR IMAGEM NO CELULAR...
+    @media only screen and (max-width: 789px ){
+    #bannerdoc{
+        display: none !important;
+    }
+    }*/ 
+
+    @media (max-width:767px){
+        #form-box{
+            margin-left: 2rem;
+        }
+
+        #form-message{
+            margin-left: 1rem;
+            width: 85%;
+        }
+    }
+
+    @media (max-width:490px){
+        #card-alinhar{
+            margin-left: 1rem;
+        }
+
+        #card-alinhar2{
+            margin-left: 1rem;
         
-        text-align: center;
-    }
-    #cards-figures-two{
-        margin-top: -0.8rem;
-    }
-    #cards-figures-three{
-        margin-top: 0.5rem;
-    }
-    #cards-figures-four{
-        margin-top: 0.5rem;
-        margin-bottom: 6rem;
-    }
-    #slider{
-        margin-left: 3rem;
-    }
-    #h5-duvidas{
-        margin-left: 1rem;
+        }
+        #figuresone{
+            width: 100%;
+        }
     }
 
-}
+
+
+    @media (max-width: 991px){
     
+        #text-about-doctorlar{
+        text-align: center;
+        }
 
+        #p-text-sobre-doctorlar{
+            text-align: center;
+        }
 
-@media (max-width:411px) and (min-width:390px){
-#card-alinhar2{
-    margin-left: 2rem;
- 
-}
-}
+        #cards-figures-two{
+            margin-top: -0.8rem;
+        }
 
-@media (max-width:991px){
-    #p-text-sobre-doctorlar{
-        width: 80%;
-        text-align: justify;
-        margin-right:  4rem;
+        #cards-figures-three{
+            margin-top: 0.5rem;
+        }
+
+        #cards-figures-four{
+            margin-top: 0.5rem;
+            margin-bottom: 6rem;
+        }
+
+        #slider{
+            margin-left: 3rem;
+        }
+
+        #h5-duvidas{
+            margin-left: 1rem;
+        }
+
+        #moreservices
+
+        #cards-text-one{
+            margin-bottom: 9rem;
+        }
+
+        #cardes:hover{
+            transform: scale(1.5);
+        }
+
     }
-    #p-vision{
-        margin-right:  2rem;
+        
+
+
+    @media (max-width:411px) and (min-width:390px){
+        #card-alinhar2{
+            margin-left: 2rem;
+        }
     }
-}
+
+    @media (max-width:991px){
+        #media_normal{
+            display: none !important;
+        }
+        #h2-fale-conosco{
+            display: none !important;
+        }
+        #btn-enviar{
+            display: none !important;
+        }
+        
+        #p-text-sobre-doctorlar{
+            width: 80%;
+            text-align: justify;
+            margin-right:  3rem;
+     }
+        #p-vision{
+            margin-right:  2rem;
+     }
+        #media-form
+        #h2-fale-conosco-responsive
+      
+    }

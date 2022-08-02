@@ -13,7 +13,6 @@
     body{
         font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         font-size: 1rem;
-        
         margin-bottom: 2rem;
     }
         
@@ -33,15 +32,23 @@
         background-color:var(--navbarcolor);
         transition: "background" ease-out 0.2ms;  
     }
+    
+    #img-fluid{
+        margin-left: 9rem;
+    }
 
     #header .navbar-collapse{
         width: auto;
+        font-size: 100%;
+       
+        
     }
    
     span.navbar-toggler-icon-disable{
         color: #efeffa;
     }
-#menu{
+    
+    #menu{
     color: #fff;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -66,12 +73,12 @@
     }
 
     #header .nav-link:hover{
-       color: var(--hovernavbar);
+        color: var(--hovernavbar);
         border-bottom: solid 0px var(--hovernavbar);
         font-family: "Roboto Flex";
         border-color: none;
     }
-  
+ 
     
 
 /* carrossel */
@@ -141,11 +148,11 @@
         margin-left: -1rem;
         position: relative;
         min-height: 1px;
-     
-        }
-        .col-2-mx-1{
-            vertical-align: inherit;
-        }
+    }
+
+    .col-2-mx-1{
+        vertical-align: inherit;
+    }
 
     #imgone{
         margin-bottom: 4rem;
@@ -162,9 +169,9 @@
     }
 
     #figuresone{
-        margin-left: 2rem;
+        margin-left: 1.8rem;
         margin-top: 3rem;
-        margin-bottom: 2rem;
+        margin-bottom: 3.5rem;
     }
     
 
@@ -178,6 +185,7 @@
         margin-bottom: 0.5rem;
         margin-left: 1.3rem;
     }
+
     #img-value{
         margin-left: 1.5rem;
         margin-top: -0.5rem;
@@ -204,8 +212,7 @@
     #p-value{
         text-align: justify;
         margin-left: 0rem;
-        padding: 0 1rem 0 0;
-          
+        padding: 0 1rem 0 0;   
     }
 
     #colvision{
@@ -288,14 +295,15 @@
         margin-left: 9rem;
     }
     
-
-  .card{
+    .card{
         background-color: var( --colorgreysolid);
         margin-left: 2rem;
         font-size: 79%;
         border-color: var(--bordercolorgrey);
-       
+
     }
+
+    
     #imghouse{
         margin-left: 3rem;
         margin-top: 2rem;
@@ -337,31 +345,33 @@
     }
 
 
-
 /*icones cards serviços*/
 
-#mais-servicos{
+    #hr-maisservicos{
+        color: var(--hrservices);
+        margin-top: 2rem;
+    }
+
+    #mais-servicos{
     color: var(--titulos2);
     text-transform: uppercase;
-    margin-top: 6rem;
-    margin-bottom: 2rem;
-    
-}
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    }
     
     #cardes{
     border: #efeffa;
     margin-top: 1rem;
-  
     }
 
     #card-alinhar{
        margin-left: 3rem;
-    
     }
+
     #card-alinhar2{
         margin-left: 2rem;
-     
      }
+
     #cardes:hover{
         padding: 0 15px;
         background: #fff;
@@ -376,7 +386,7 @@
     #cardes:hover{
         transform: scale(1.2);
         box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.281);
-        border-bottom: solid 4px transparent;
+        border-bottom: solid 4px rgb(255, 255, 255);
     }
 
     #cardes:hover img{
@@ -398,9 +408,9 @@
     }
 
     #img-bandeira{
-        margin-left: 3rem; 
-        
+        margin-left: 3rem;   
     } 
+
     #h6-card-bandeira{
         margin-top: -0.7rem;
         margin-bottom: 1rem;
@@ -428,7 +438,7 @@
     }
 
     #cards-figures-three{
-    margin-left: 2rem;
+        margin-left: 2rem;
         margin-top: 5rem;
         font-size: 95%;
         margin-right: 6rem;
@@ -479,7 +489,7 @@
 
 /* como funciona */
     section#funcionamento{
-        margin-top: 2rem;
+        margin-top: 5rem;
         margin-bottom: 6rem;
         background-color:  var(--colorgrey);
 
@@ -806,21 +816,22 @@ section#contato{
         margin-top: 2rem;
         color: var(--titulos);
         text-transform: uppercase;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
 
 
     #form-box{
-        margin-left: 4rem;
-        width: 85%;
-        height: 3rem;
+        margin-left: 7rem;
+        width: 80%;
+        height: 3.5rem;
         border-color: var(--borderform);
     }
 
     #form-message{
-        width: 90%;
-        height: 12rem;
+        width: 85%;
+        height: 13.1rem;
         border-color: var(--borderform);
+       
     }
 
     #a-button-form{
@@ -832,13 +843,69 @@ section#contato{
         border: solid transparent;
         border-radius: 4px;
         margin-bottom: 3rem;
+        margin-left: -2rem;
     }
 
 
 /*botao enviar*/
     #a-button-form:hover{
         background-color: var(--titulos);
-        
+    }
+
+
+/*contato form-responsive*/
+    section#contato-responsive{
+    background-color: var(--colorgrey);
+}
+
+
+#h2-fale-conosco-responsive{
+    margin-top: 2rem;
+    color: var(--titulos);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+    #media-form{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #form-box-responsive{
+        margin-left: 7rem;
+        width: 70%;
+        height: 3rem;
+        border-color: var(--borderform);
+        margin-bottom: 1rem;
+        border-radius: 9px;
+    }
+
+    input#placeholder{
+        margin-left: 1rem;
+    }
+
+    #form-message-responsive{
+        width: 70%;
+        height: 12rem;
+        border-color: var(--borderform);
+        margin-left: 7rem;
+    }
+
+    #a-button-form-responsive{
+        justify-content: center;
+        margin-top: 1rem;
+        padding: 1rem;
+        width: 140px;
+        background-color: var(--botoeslaranja);
+        border: solid transparent;
+        border-radius: 4px;
+        margin-bottom: 3rem;
+    }
+
+
+/*botao enviar responsive*/
+    #a-button-form-responsive:hover{
+        background-color: var(--titulos); 
     }
 
 
