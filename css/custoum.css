@@ -279,11 +279,7 @@
     }
 
 /*cards- serviços*/
-    section#cards-figure{
-   
-    }
 
-  
     #card{
         color:white;
     }
@@ -322,12 +318,11 @@
     #pcardtextele{
         text-align: justify;
         margin-top: 0.8rem;
-      
-
     }
+
     #imgmedicocelular{
-    margin-left: 2.5rem;
-    margin-top: 0rem;
+        margin-left: 2.5rem;
+        margin-top: 0rem;
     }
 
     #medico-card-celular{
@@ -390,9 +385,9 @@
     }
 
     #cardes:hover img{
-    filter: none; 
-    opacity: 100%;
-    filter: contrast(120%);
+        filter: none; 
+        opacity: 100%;
+        filter: contrast(120%);
     }
 
     #cardes img{
@@ -872,12 +867,13 @@ section#contato{
     }
 
     #form-box-responsive{
-        margin-left: 7rem;
-        width: 70%;
-        height: 3rem;
+        margin-left: 3rem;
+        width: 88%;
+        height: 4rem;
         border-color: var(--borderform);
         margin-bottom: 1rem;
         border-radius: 9px;
+       
     }
 
     input#placeholder{
@@ -885,10 +881,10 @@ section#contato{
     }
 
     #form-message-responsive{
-        width: 70%;
+        width: 88%;
         height: 12rem;
         border-color: var(--borderform);
-        margin-left: 7rem;
+        margin-left: 3rem;
     }
 
     #a-button-form-responsive{

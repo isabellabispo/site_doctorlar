@@ -20,6 +20,10 @@
         #h2-fale-conosco-responsive{
             display: none !important
         }
+        body{
+            transform: scale(2.0);
+            transform-origin: 0 0;
+        }
        
     }
 
@@ -139,16 +143,17 @@
         #btn-enviar{
             display: none !important;
         }
-        
         #p-text-sobre-doctorlar{
             width: 80%;
             text-align: justify;
             margin-right:  3rem;
      }
+        #media-form
+
+        #h2-fale-conosco-responsive
+     
         #p-vision{
             margin-right:  2rem;
      }
-        #media-form
-        #h2-fale-conosco-responsive
-      
+    
     }
