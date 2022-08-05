@@ -20,10 +20,6 @@
         #h2-fale-conosco-responsive{
             display: none !important
         }
-        body{
-            transform: scale(2.0);
-            transform-origin: 0 0;
-        }
        
     }
 
@@ -83,7 +79,7 @@
 
 
     @media (max-width: 991px){
-    
+
         #text-about-doctorlar{
         text-align: center;
         }
