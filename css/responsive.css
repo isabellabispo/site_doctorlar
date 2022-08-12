@@ -20,7 +20,17 @@
         #h2-fale-conosco-responsive{
             display: none !important
         }
-       
+        #h2-como-funciona-responsive{
+            display: none !important
+        }
+        #time-responsive{
+            display: none !important
+        }
+       .responvive-sobre{
+        display: none !important
+       }
+        
+     
     }
 
     @media (max-width: 580px) {
@@ -31,7 +41,10 @@
         #slider{
             margin-top: 2rem;
             }
-    }
+         .time-responsive{
+            margin-left: 2rem;
+         }
+        }
 
 
     @media (max-width: 508px) {
@@ -60,7 +73,24 @@
             margin-left: 1rem;
             width: 85%;
         }
+       
     }
+    @media (min-width:767px){
+        
+            #p-drmohamad{
+                width: 100%;
+            }
+            #p-edy{
+                width: 100%;
+            }
+            #p-luiz{
+                 width: 100%;
+            }
+            #p-marco{
+                width: 100%;
+            }
+        }
+    
 
     @media (max-width:490px){
         #card-alinhar{
@@ -76,18 +106,33 @@
         }
     }
 
-
-
     @media (max-width: 991px){
-
+        .normal-a{
+            display: none!important;
+         }
         #text-about-doctorlar{
         text-align: center;
+        font-size: 210%;
         }
 
         #p-text-sobre-doctorlar{
-            text-align: center;
+            text-align: justify;
         }
 
+        #img-doctorlar{
+            width: 75%;
+            height: 85%;
+        }
+
+        #p-mission{
+            font-size: 110%;
+        }
+        #p-vision{
+            font-size: 110%;
+        }
+        #p-value{
+            font-size: 110%;
+        }
         #cards-figures-two{
             margin-top: -0.8rem;
         }
@@ -104,13 +149,17 @@
         #slider{
             margin-left: 3rem;
         }
-
+        
         #h5-duvidas{
             margin-left: 1rem;
         }
 
         #moreservices
 
+        #time-responsive
+        .responvive-sobre
+        
+      
         #cards-text-one{
             margin-bottom: 9rem;
         }
@@ -118,7 +167,7 @@
         #cardes:hover{
             transform: scale(1.5);
         }
-
+      
     }
         
 
@@ -140,10 +189,17 @@
             display: none !important;
         }
         #p-text-sobre-doctorlar{
-            width: 80%;
+            width: 100%;
             text-align: justify;
             margin-right:  3rem;
+            font-size: 130%;
+            margin-top: -0.2rem;   
      }
+
+        #sobre-nosso-time{
+        display: none;
+    } 
+ 
         #media-form
 
         #h2-fale-conosco-responsive
@@ -151,5 +207,73 @@
         #p-vision{
             margin-right:  2rem;
      }
+     #form-box-responsive ::placeholder{
+        font-size: larger;
+       
+     }
+     textarea ::placeholder{
+        font-size: larger;
+     }
+    
     
     }
+
+    @media (max-width:991px) and (min-width:800px){
+        #p-drmohamad{
+            font-size: 120%;
+        }
+        #p-edy{
+            font-size: 120%;
+        }
+        #p-luiz{
+            font-size: 120%;
+        }
+        #p-marco{
+            font-size: 120%;
+        }
+        #h6-drmohamad{
+            font-size: 120%;
+        }
+        #h6-edy{
+            font-size: 120%;
+        }
+        #h6-luiz{
+            font-size: 120%;
+        }
+        #h6-marco{
+            font-size: 120%;
+        }
+        .time-responsive{
+            margin-bottom: 4rem;
+        }
+        #p-faca-parte-medicos{
+            font-size: 130%;
+        }
+        #medico-felipe{
+            width: 90%;
+            height: 90%;
+        }
+        #medica-amanda{
+            width: 90%;
+            height: 90%;
+        }
+        #medico-doctorlar{
+            font-size: 120%;
+        }
+        #medica-doctorlar{
+            font-size: 120%;
+        }
+        #para-pacientes{
+            font-size: 120%;
+        }
+        #p-para-pacientes{
+            font-size: 130%;
+            margin-bottom: 3rem;
+        }
+        #para-medicos{
+            font-size: 120%;
+        }
+        #p-para-medicos{
+            font-size: 110%;
+    }
+}
