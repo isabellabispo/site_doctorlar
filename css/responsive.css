@@ -1,6 +1,7 @@
     
     
-    @media (min-width: 992px) {
+    @media (min-width: 991px) {
+        
         #header .nav-link {
         margin-left: 40px;
         }
@@ -29,8 +30,13 @@
        .responvive-sobre{
         display: none !important
        }
-        
-     
+       #redes-sociais-responsive{
+        display: none !important
+       }
+      
+       #a-button-cadastro-responsive{
+        display: none !important
+       }
     }
 
     @media (max-width: 580px) {
@@ -41,7 +47,7 @@
         #slider{
             margin-top: 2rem;
             }
-         .time-responsive{
+         #time-responsive{
             margin-left: 2rem;
          }
         }
@@ -77,17 +83,17 @@
     }
     @media (min-width:767px){
         
-            #p-drmohamad{
-                width: 100%;
-            }
-            #p-edy{
-                width: 100%;
-            }
-            #p-luiz{
-                 width: 100%;
-            }
-            #p-marco{
-                width: 100%;
+        #p-drmohamad{
+            width: 100%;
+         }
+        #p-edy{
+            width: 100%;
+         }
+        #p-luiz{
+            width: 100%;
+         }
+        #p-marco{
+            width: 100%;
             }
         }
     
@@ -107,31 +113,77 @@
     }
 
     @media (max-width: 991px){
+        #about-doctorlar{
+            margin-right: 1.3rem;
+        }
+        #medica-doctorlar{
+            margin-bottom: 3rem;
+         }
+
         .normal-a{
             display: none!important;
          }
+         #redes-sociais{
+            display: none !important;
+         }
+         #a-button-cadastro{
+            display: none!important;
+         }
+
         #text-about-doctorlar{
         text-align: center;
         font-size: 210%;
+        
         }
 
         #p-text-sobre-doctorlar{
             text-align: justify;
+           
         }
 
         #img-doctorlar{
-            width: 75%;
-            height: 85%;
+            width: 70%;
+            height: 80%;
         }
-
+        #h3mission{
+            font-size: 210%;
+            margin-left: 1.5rem;
+            margin-top: -0.3rem;
+        }
+        #h3vision{
+            font-size: 260%;
+            margin-left: 0.7rem;
+        }
+        #h3value{
+            font-size: 200%;
+            margin-left: 1.5rem;
+            margin-top: -0.5rem;
+        }
         #p-mission{
-            font-size: 110%;
+            font-size: 140%;
+           
         }
         #p-vision{
-            font-size: 110%;
+            font-size: 140%;
         }
         #p-value{
-            font-size: 110%;
+            font-size: 140%;
+        }
+        #img-mission{
+            width: 95px;
+            height: 80px;
+            margin-bottom: -0.5rem;
+            margin-left: 1.5rem;
+           
+        }
+        #img-vision{
+            width: 95px;
+            height: 60px;
+        }
+        #img-value{
+            width: 80px;
+            height: 80px;
+           
         }
         #cards-figures-two{
             margin-top: -0.8rem;
@@ -158,17 +210,78 @@
 
         #time-responsive
         .responvive-sobre
+        .redes-sociais
         
-      
         #cards-text-one{
             margin-bottom: 9rem;
         }
 
         #cardes:hover{
-            transform: scale(1.5);
+            transform: scale(1.2);
         }
-      
-    }
+        #time-responsive{
+            margin-bottom: 3rem;
+        }
+
+        #button-tw-responsive{
+            border-radius: 70%;
+            overflow: hidden;  
+            background-color: #fff;
+            justify-content: center;
+            align-items: center;
+            border: solid transparent;
+            
+        }
+        #button-face-responsive{
+            background-color: #fff;
+            border-radius: 70%;
+            overflow: hidden; 
+            justify-content: center;
+            align-items: center; 
+            border: solid transparent;
+            
+        }
+        #button-inst-responsive{
+            border-radius: 70%;
+            overflow: hidden;  
+            background-color: #fff;
+            justify-content: center;
+            align-items: center;
+            border: solid transparent;
+        }
+        #a-button-cadastro-responsive{
+            justify-content: center;
+            margin-top: -1rem;
+            padding: 1rem;
+            width: 200px;
+            background-color: var(--botoeslaranja);
+            border: solid transparent;
+            border-radius: 4px;
+        }
+        #span-wpp img{
+            width: 75px;
+            height: 75px;
+            right: 90px;
+            line-height: 50px;
+            position: fixed;
+            bottom: 40px;
+            border-radius: 50%;
+            background-clip: padding-box;
+            margin-right: -6rem;
+            filter:grayscale(15%);
+        }
+        #span-wpp{
+            position: fixed;
+            font-size: 19px;
+            width: 65px;
+            height: 50px;
+            bottom: 40px;
+            filter:grayscale(15%);
+        }
+        #span-wpp:hover{
+            filter: contrast(130%);
+        }
+        }
         
 
 
@@ -192,13 +305,13 @@
             width: 100%;
             text-align: justify;
             margin-right:  3rem;
-            font-size: 130%;
-            margin-top: -0.2rem;   
-     }
+            font-size: 140%;
+            margin-top: -0.2rem;  
+         }
 
         #sobre-nosso-time{
         display: none;
-    } 
+        } 
  
         #media-form
 
@@ -206,62 +319,97 @@
      
         #p-vision{
             margin-right:  2rem;
-     }
-     #form-box-responsive ::placeholder{
+        }
+   
+        #form-box-responsive ::placeholder{
         font-size: larger;
-       
-     }
-     textarea ::placeholder{
+        }
+        
+        textarea ::placeholder{
         font-size: larger;
-     }
-    
-    
+        }
+        
+        li.nav-item{
+        font-size: 120%
+        }
+
+        p#menu{
+        font-size: 120%;
+        }
     }
+
 
     @media (max-width:991px) and (min-width:800px){
         #p-drmohamad{
-            font-size: 120%;
+            font-size: 160%;
         }
         #p-edy{
-            font-size: 120%;
+            font-size: 160%;
         }
         #p-luiz{
-            font-size: 120%;
+            font-size: 160%;
         }
         #p-marco{
-            font-size: 120%;
+            font-size: 160%;
         }
         #h6-drmohamad{
-            font-size: 120%;
+            font-size: 130%;
         }
         #h6-edy{
-            font-size: 120%;
+            font-size: 130%;
         }
         #h6-luiz{
-            font-size: 120%;
+            font-size: 130%;
         }
         #h6-marco{
-            font-size: 120%;
+            font-size: 130%;
+          
         }
+        #h5-drmohamad{
+            font-size: 160%;
+            margin-top: 0.5rem;
+        }
+        #h5-edy{
+            font-size: 160%;
+            margin-top: 0.5rem;
+        }
+        #h5-luiz{
+            font-size: 160%;
+            margin-top: 0.5rem;
+        }
+        #h5-marco{
+            font-size: 160%;
+            margin-top: 0.5rem;
+        }
+
         .time-responsive{
-            margin-bottom: 4rem;
+            margin-bottom: 7rem;
         }
         #p-faca-parte-medicos{
             font-size: 130%;
         }
         #medico-felipe{
-            width: 90%;
-            height: 90%;
+            width: 45%;
+            height: 45%;
         }
         #medica-amanda{
-            width: 90%;
-            height: 90%;
+            width: 45%;
+            height: 45%;
         }
         #medico-doctorlar{
-            font-size: 120%;
+            font-size: 140%;
         }
         #medica-doctorlar{
-            font-size: 120%;
+            font-size: 140%;
+        }
+        #h2-medico-felipe{
+            font-size: 160%;
+        }
+        #h2-medica-amanda{
+            font-size: 160%;
+        }
+        #a-button-cadastro{
+            font-size: 125%;
         }
         #para-pacientes{
             font-size: 120%;
@@ -275,5 +423,10 @@
         }
         #p-para-medicos{
             font-size: 110%;
+        }
+        #a-button-form{
+            font-size: 135%;
+        }
+    
     }
-}
+   

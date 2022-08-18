@@ -51,12 +51,12 @@
     }
     
     #menu{
-    color: #fff;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifS;
-    
-}
+        color: #fff;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifS;
+    }
+
     #header .nav-link{
         text-transform: uppercase;
         font-size: 80%;
@@ -76,12 +76,10 @@
 
     #header .nav-link:hover{
         color: var(--hovernavbar);
-        border-bottom: solid 0px var(--hovernavbar);
         font-family: "Roboto Flex";
-        border-color: none;
+       
     }
  
-    
 
 /* carrossel */
   #slider .carousel-item{
@@ -91,6 +89,7 @@
     margin-bottom: 6rem;
     border-radius: 4px;
     }
+
     button.carousel-control-prev{
         margin-top: 6rem;
     }
@@ -128,8 +127,7 @@
     }
 
     #text-about-doctorlar{
-    text-align: justify;
-
+        text-align: justify;
     }
 
     #img-doctorlar{
@@ -174,7 +172,6 @@
         margin-bottom: 3.5rem;
     }
     
-
     #img-mission{
         margin-left: 1rem;
         margin-bottom: 0rem;
@@ -197,6 +194,10 @@
         margin-top: -3rem;
     }
 
+    h3.figuresone{
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+  
     #p-mission{
         text-align: justify;
         margin-left: 0rem;
@@ -252,7 +253,6 @@
 /*nosso plano*/
     #plane{
         margin-top:1rem;
-        
     }
 
     #h-plane{
@@ -322,11 +322,11 @@
 
     #imgmedicocelular{
         margin-left: 2.5rem;
-        margin-top: 0rem;
+        margin-top: 1rem;
     }
 
     #medico-card-celular{
-        margin-top: 1.5rem;
+        margin-top: 0rem;
     }
 
     #imgtel{
@@ -388,6 +388,7 @@
         filter: none; 
         opacity: 100%;
         filter: contrast(120%);
+        
     }
 
     #cardes img{
@@ -403,7 +404,7 @@
     }
 
     #img-bandeira{
-        margin-left: 3rem;   
+        margin-left: 3.5rem;   
     } 
 
     #h6-card-bandeira{
@@ -477,8 +478,8 @@
     }
 
     #img-remedio{
-        margin-top: 0rem;
-        margin-left: 3rem;
+        margin-top: 0.5rem;
+        margin-left: 2.5rem;
     }
 
 
@@ -487,7 +488,6 @@
         margin-top: 5rem;
         margin-bottom: 6rem;
         background-color:  var(--colorgrey);
-
     }
 
     #h2-como-funciona{
@@ -496,7 +496,6 @@
         color: var( --titulos);
         margin-bottom: 4rem;
     }
-
 
     video#video-paciente{
         border-radius: 10px;
@@ -608,7 +607,7 @@
     }
 
     #button-face{
-        margin-top: -5.9rem;
+        margin-top: -6.2rem;
         margin-left: 4rem;
         padding: 1rem;
         display: flex;
@@ -625,7 +624,7 @@
     }
 
     #button-inst{
-        margin-top: -5.7rem;
+        margin-top: -6.2rem;
         margin-left: 9rem;
         padding: 1rem;
         display: flex;
@@ -660,8 +659,8 @@
 
 /*dowload app*/
     #h4-baixe-aplicativo{
-    margin-top: 8rem;
-    margin-bottom: -1rem;
+        margin-top: 8rem;
+        margin-bottom: -1rem;
         color: var(--sixty);
         text-transform: uppercase;
     }
@@ -692,9 +691,10 @@
 
 /*parceiros*/
 
-#section-parceiros{
-    background-color: var(--colorgrey);
-}
+    #section-parceiros{
+        background-color: var(--colorgrey);
+    }
+    
     #h2-parceiros{
         margin-top: 3rem;
         margin-bottom: 3rem;
@@ -804,9 +804,10 @@
 
 
 /*contato form*/
-section#contato{
-    background-color: var(--colorgrey);
-}
+    section#contato{
+        background-color: var(--colorgrey);
+    }
+
     #h2-fale-conosco{
         margin-top: 2rem;
         color: var(--titulos);
@@ -814,19 +815,18 @@ section#contato{
         margin-bottom: 2rem;
     }
 
-
     #form-box{
         margin-left: 7rem;
         width: 80%;
         height: 3.5rem;
         border-color: var(--borderform);
     }
+ 
 
     #form-message{
         width: 85%;
         height: 13.1rem;
-        border-color: var(--borderform);
-       
+        border-color: var(--borderform);  
     }
 
     #a-button-form{
@@ -851,15 +851,15 @@ section#contato{
 /*contato form-responsive*/
     section#contato-responsive{
     background-color: var(--colorgrey);
-}
+    }
 
 
-#h2-fale-conosco-responsive{
-    margin-top: 2rem;
-    color: var(--titulos);
-    text-transform: uppercase;
-    margin-bottom: 2rem;
-}
+    #h2-fale-conosco-responsive{
+        margin-top: 2rem;
+        color: var(--titulos);
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+    }
 
     #media-form{
         margin-top: 2rem;
@@ -873,7 +873,6 @@ section#contato{
         border-color: var(--borderform);
         margin-bottom: 1rem;
         border-radius: 9px;
-       
     }
 
     input#placeholder{
@@ -913,7 +912,6 @@ section#contato{
 
     #politica{
         margin-top: 4rem;
-    
     }
 
     #a-politica{
@@ -940,10 +938,10 @@ section#contato{
         font-size: 17px;
         text-align: center;
         border-radius: 50%;
-        background-clip: padding-box;
+        background-clip: padding-box; 
         color: #063e72e0;
         opacity: 80%;
-        filter:grayscale(20%);
+        filter:grayscale(15%);
     }
 
     #span-wpp:hover{
