@@ -5,7 +5,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="icon" type="imagem/png" href="assets/doctorlaricon.png" />
+
+
+  <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <link rel="icon" type="imagem/png" href="assets/img-doctorlar/doctorlaricon.png" />
   <link rel="stylesheet" href="css/main.css" />
   <meta name="viewport" content="width=840">
   <title>Doctorlar</title>
@@ -20,8 +28,8 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light justify-content-between fixed-top" id="navbarex">
         <a class="navbar-brand" href="#">
-          <img src="assets/img-doctorlar/doctorlar7.png" class="img-fluid doc-nav" width="225 " height=" 195 " />
-        </a>
+          <img src="assets/img-doctorlar/doctorlar7.png" class="img-fluid doc-nav" width="230 " height=" 200 " />
+        </a>&nbsp;&nbsp;
 
         <button class="navbar-toggler btn btn-primary" type="button" data-bs-toggle="collapse" onclick="click"
           data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -216,7 +224,7 @@
                 <img src="assets/serviços/valoresb.png" class="fas fa-chart-line text-shadow" id="img-value"
                   aria-hidden="true" width="65" height="60"></img>
               </div>
-              <div class="col-auto" id="colvalue">
+              <div class="col-auto" >
                 <h3 class="fw-bold" id="h3value">VALORES</h3>
               </div>
             </div>
@@ -277,11 +285,11 @@
         <div class="col-12">
           <div class="row ">
             <div class="col-md-6 col-lg-4 ">
-              <div class="card mx-auto  p-1 mb-3" style="width: 20rem;">
+              <div class="card mx-auto  p-1 mb-3" id="first-cardes" style="width: 22rem;">
                 <img class="card" id="imgtel" src="assets/serviços/callb.png" alt="Card image cap" width="290"
                   height="172">
                 <div class="card-body">
-                  <h5 class="card-title text-center fw-bold">TeleMedicina</h5>
+                  <h5 class="card-title text-center fw-bold" id="h5tele">TeleMedicina</h5>
                   <p class="card-text text-center " id="pcardtextele">Nos atendimentos em TeleMedicina, um profissional
                     de
                     saúde lhe atende no conforto do seu lar. Caso haja necessidade, você é indicado para um prestador
@@ -291,7 +299,7 @@
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
-              <div class="card mx-auto  p-1 mb-3" style="width: 18rem">
+              <div class="card mx-auto  p-1 mb-3" style="width: 20rem" id="house-card">
                 <img class="p-6 " id="imghouse" src="assets/serviços/medico-paciente.png" alt="Card image cap"
                   width="200" height="190">
                 <div class="card-body">
@@ -304,9 +312,73 @@
               </div>
             </div>
             <div class="col-md-12 col-lg-4">
+              <div class="card mx-auto  p-1 mb-3" style="width: 22rem" id="medico-card-celular">
+                <img class="p-1 " id="imgmedicocelular" src="assets/serviços/mdccell.png" alt="Card image cap"
+                  width="220" height="255">
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bold" id="h5cardmedicocelular">Consulta Imediata</h5>
+                  <p class="card-text text-center" id="pcardmedicocelular">Não tem tempo para esperar? Chame um dos
+                    nossos
+                    médicos para o atendimento imediato. Em pouco tempo um médico chegará no local de sua preferência
+                    para
+                    lhe prestar o melhor atendimento.</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <!-- final secition cards-->
+</section>
+
+
+
+
+
+  <!-- serviços responsive -->
+
+  <section id="cards-figure">
+    <div id="figures">
+    
+    <div id="cards-text-one-responsive">
+      <div class="container">
+        <div class="col-12">
+          <div class="row ">
+            <div class="col-md-12 ">
+              <div class="card mx-auto  p-1 mb-3" id="first-cardes" style="width: 20rem;">
+                <img class="card" id="imgtel" src="assets/serviços/callb.png" alt="Card image cap" width="290"
+                  height="172">
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bold" id="h5tele">TeleMedicina</h5>
+                  <p class="card-text text-center " id="pcardtextele">Nos atendimentos em TeleMedicina, um profissional
+                    de
+                    saúde lhe atende no conforto do seu lar. Caso haja necessidade, você é indicado para um prestador
+                    realizar um atendimento detalhado.</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="card mx-auto  p-1 mb-3" style="width: 18rem" id="house-card">
+                <img class="p-6 " id="imghouse" src="assets/serviços/medico-paciente.png" alt="Card image cap"
+                  width="200" height="190">
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bold" id="h5cardtitlehouse">Consulta Agendada Domiciliar</h5>
+                  <p class="card-text text-center" id="pcardtexthouse">Nesse formato, você escolhe o melhor dia e hora
+                    para sua consulta. No local e dia escolhido por você, o médico prestará o atendimento desejado com
+                    todo conforto e segurança.</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 ">
               <div class="card mx-auto  p-1 mb-3" style="width: 18rem" id="medico-card-celular">
-                <img class="p-1 " id="imgmedicocelular" src="assets/serviços/drcelular.png" alt="Card image cap"
-                  width="240" height="254">
+                <img class="p-1 " id="imgmedicocelular" src="assets/serviços/mdccell.png" alt="Card image cap"
+                  width="220" height="255">
                 <div class="card-body">
                   <h5 class="card-title text-center fw-bold" id="h5cardmedicocelular">Consulta Imediata</h5>
                   <p class="card-text text-center" id="pcardmedicocelular">Não tem tempo para esperar? Chame um dos
@@ -335,6 +407,7 @@
 
 
 
+
     <div id="moreservices">
       <div class="container">
         <div data-bs-spy="scroll" data-bs-target="#navbarex" data-bs-root-margin="0px 0px -40%"
@@ -354,7 +427,7 @@
           <div class="row">
             <div class="col-lg-4 col-md-6">
 
-              <div class="card mx-auto" id="cardes" style="width: 14rem;">
+              <div class="card mx-auto" id="cardes" style="width: 16rem;">
 
                 <img class="p-3" src="assets/serviços/bandeirabs.png" id="img-bandeira" alt="Card image cap" width="100"
                   height="100">
@@ -366,7 +439,7 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-6">
-              <div class="card mx-auto  p-1" id="cardes" style="width: 14rem;">
+              <div class="card mx-auto  p-1" id="cardes" style="width: 16rem;">
 
                 <img class="p-3" src="assets/serviços/certob.png" id="img-certo" alt="Card image cap" width="100"
                   height="95">
@@ -379,7 +452,7 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-12">
-              <div class="card mx-auto" id="cardes" style="width: 14rem;">
+              <div class="card mx-auto" id="cardes" style="width: 16rem;">
 
                 <img class="p-3" src="assets/serviços/prontuariob.png" id="img-prontuario" alt="Card image cap"
                   width="140" height="100">
@@ -395,13 +468,12 @@
       </div>
     </div>
 
-
     <div id="cards-figures-three">
       <div class="container">
         <div class="col-12" id="card-alinhar">
           <div class="row  justify-content-between-3 justify-content-center">
             <div class="col-lg-4 col-md-6">
-              <div class="card mx-auto" id="cardes" style="width: 15.5rem;">
+              <div class="card mx-auto" id="cardes" style="width: 19rem;">
 
                 <img class="p-2" src="assets/serviços/hospitalb.png" id="img-hospital" alt="Card image cap" width="100"
                   height="100">
@@ -416,7 +488,7 @@
             </div>
 
             <div class="col-lg-4 col-md-6">
-              <div class="card mx-auto" id="cardes" style="width: 15rem;">
+              <div class="card mx-auto" id="cardes" style="width: 17.9rem;">
                 <img class="p-3" src="assets/serviços/carrob.png" id="img-carro" alt="Card image cap" width="110"
                   height="90">
                 <div class="card-body">
@@ -429,7 +501,7 @@
             </div>
 
             <div class="col-lg-4 col-md-12">
-              <div class="card mx-auto" id="cardes" style="width: 13rem;">
+              <div class="card mx-auto" id="cardes" style="width: 14rem;">
                 <img class="p-3" src="assets/serviços/labb.png" id="img-lab" alt="Card image cap" width="100"
                   height="85">
                 <div class="card-body">
@@ -447,9 +519,9 @@
     <div id="cards-figures-four">
       <div class="container">
         <div class="col-12" id="card-alinhar2">
-          <div class="row justify-content-between-4 justify-content-center">
+          <div class="row justify-content-between-3 justify-content-center">
             <div class="col-lg-3 col-md-6">
-              <div class="card mx-auto" id="cardes" style="width: 15rem;">
+              <div class="card mx-auto" id="cardes" style="width: 18rem;">
                 <img class="p-3" src="assets/serviços/wtb.png" id="img-wlabel" alt="Card image cap" width="100"
                   height="100">
                 <div class="card-body">
@@ -477,9 +549,143 @@
         </div>
       </div>
     </div>
-
-    <!-- final secition cards-->
+</div>
   </section>
+
+<section id="figures-responsive">
+  
+  <div id="cards-figures-two-responsive">
+    <div class="container">
+      <div class="col-12 align-self-center" id="card-alinhar">
+        <div class="row">
+          <div class="col-md-12">
+
+            <div class="card mx-auto" id="cardes-rs" style="width: 15rem;">
+
+              <img class="p-3 mx-auto" src="assets/serviços/bandeirabs.png" id="img-bandeira" alt="Card image cap" width="100"
+                height="100">
+              <div class="card-body">
+                <h6 class="card-title text-center fw-bold" id="h6-card-bandeira">Consulta Agendada em Consultório</h6>
+                <p class="card-text text-center " id="p-card-bandeira">Nesse formato, você escolhe o melhor dia e hora
+                  para sua consulta. Você vai até o consultório e o médico lhe atenderá.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="card mx-auto  p-1" id="cardes-rs" style="width: 14rem;">
+
+              <img class="p-3 mx-auto" src="assets/serviços/certob.png" id="img-certo" alt="Card image cap" width="100"
+                height="95">
+              <div class="card-body">
+                <h6 class="card-title text-center fw-bold" id="h6-card-certo">Acompanhamento de Tratamentos</h6>
+                <p class="card-text text-center " id="p-card-certo">Nossos profissionais realizarão o acompanhamento
+                  dos
+                  tratamentos através da TeleMedicina.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="card mx-auto" id="cardes-rs" style="width: 16rem;">
+
+              <img class="p-3 mx-auto" src="assets/serviços/prontuariob.png" id="img-prontuario" alt="Card image cap"
+                width="140" height="100">
+              <div class="card-body">
+                <h6 class="card-title text-center fw-bold" id="h6-card-prontuario">Prontuário Eletrônico</h6>
+                <p class="card-text text-center " id="p-card-prontuario">Tenha acesso as informações de sua saúde,
+                  medicamentos prescritos, últimas consultas por especialidade, tudo a um simples toque na tela.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="cards-figures-three-responsive">
+    <div class="container" >
+      <div class="col-12" id="card-alinhar">
+        <div class="row  justify-content-between-3 justify-content-center">
+          <div class="col-md-12">
+            <div class="card mx-auto" id="cardes-rs" style="width: 15.5rem;">
+
+              <img class="p-2 mx-auto" src="assets/serviços/hospitalb.png" id="img-hospital" alt="Card image cap" width="100"
+                height="100">
+              <div class="card-body">
+                <h6 class="card-title text-center fw-bold" id="h6-card-hospital">Hospital de Retaguarda</h6>
+                <p class="card-text text-center " id="p-card-hospital">Temos parceria com o Hospital MADRECOR, que
+                  atua
+                  com um conceito em atendimento hospitalar mais acolhedor e humanizado, com total segurança e
+                  qualidade.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <div class="card mx-auto" id="cardes-rs" style="width: 15rem;">
+              <img class="p-3 mx-auto" src="assets/serviços/carrob.png" id="img-carro" alt="Card image cap" width="120"
+                height="90">
+              <div class="card-body">
+                <h6 class="card-title text-center fw-bold" id="h6-card-carro">Transporte Terrestre</h6>
+                <p class="card-text text-center " id="p-card-carro">Precisa de atendimento médico pré-hospitalar e/ou
+                  remoção? * Ligue para 0800 34 2115. A MEDILAR, nossa parceira possui atendimento pré-hospitalar,
+                  atuando em mais de 180 municípios.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <div class="card mx-auto" id="cardes-rs" style="width: 13rem;">
+              <img class="p-3 mx-auto" src="assets/serviços/labb.png" id="img-lab" alt="Card image cap" width="100"
+                height="85">
+              <div class="card-body">
+                <h6 class="card-title text-center fw-bold" id="h6-card-lab">Laboratórios Referenciados</h6>
+                <p class="card-text text-center " id="p-card-lab">O Laboratório SABIN, nosso parceiro para exames
+                  laboratoriais possui uma lista completa de serviços em saúde.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="cards-figures-four-responsive">
+    <div class="container">
+      <div class="col-12" id="card-alinhar">
+        <div class="row justify-content-between-4 justify-content-center">
+          <div class="col-md-12">
+            <div class="card mx-auto" id="cardes-rs" style="width: 15rem;">
+              <img class="p-3 mx-auto" src="assets/serviços/wtb.png" id="img-wlabel" alt="Card image cap" width="100"
+                height="100">
+              <div class="card-body">
+                <h6 class="card-title text-center fw-bold" id="h6-card-wlabel">Plataforma WhiteLabel</h6>
+                <p class="card-text text-center align-self-center " id="p-card-wlabel">Você pode usar nossa plataforma
+                  com a sua cara. O aplicativo possui formato WhiteLabel, com funcionalidade e customização (mediante
+                  orçamento prévio). Fale Conosco a respeito.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-12">
+            <div class="card mx-auto" id="cardes-rs" style="width: 13rem;">
+              <img class="p-3 mx-auto" src="assets/serviços/remediosb.png" id="img-remedio" alt="Card image cap" width="115"
+                height="115">
+              <div class="card-body">
+                <h6 class="card-title text-center fw-bold" id="h6-card-remedio">Desconto em Medicamentos</h6>
+                <p class="card-text text-center " id="p-card-remedio">Em breve!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
   <!-- como funciona videos-->
@@ -498,7 +704,7 @@
     </div>
 
     <div id="videos-doctorlar">
-      <div class="container">
+      <div class="container" id="videosdoc">
         <div class="row justify-content-between-3 justify-content-center">
           <div class="col-lg-6 col-md-12">
             <div class="vs-controller mx-auto  align-self-center text-center">
@@ -849,7 +1055,7 @@
 
 
 
-    <div class="container">
+    <div class="container" id="nossotime">
       <div class="row">
 
         <div class="col-md-6 mt-4 text-center justify-content-between-3 ">
@@ -899,17 +1105,16 @@
 
   <section id="time-responsive">
     <div class="nossotime">
-      <div class="container">
+      <div class="container" id="nossotimers">
         <div data-bs-spy="scroll" data-bs-target="#navbarex" data-bs-root-margin="0px 0px -40%"
           data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0"></div>
         <div class="row">
           <h2 id="h2-como-funciona" class=fw-bold align="center">Nosso Time</h2>
         </div>
-      </div>
-    </div>
-    </div>
+    
 
-    <div class="container" id="all">
+
+    <div class="container">
       <div class="row">
 
         <div class="col-md-12 mb-3 text-center justify-content-between-3 ">

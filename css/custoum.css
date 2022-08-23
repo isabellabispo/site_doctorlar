@@ -11,7 +11,7 @@
     }
 
     body{
-        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
         font-size: 1rem;
         margin-bottom: 2rem;
         margin-right: 0.5rem;
@@ -27,6 +27,7 @@
 
     .fixed-top{
         padding: 9px 120px;
+        padding-bottom: 1px;
         position: fixed;
         width: 100%;
         top: 0;
@@ -36,12 +37,13 @@
     }
     
     #img-fluid{
-        margin-left: 9rem;
+      padding-top: 0;
     }
 
     #header .navbar-collapse{
         width: auto;
         font-size: 100%;
+        font-weight: 100 !important;
        
         
     }
@@ -51,24 +53,29 @@
     }
     
     #menu{
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+        font-weight: 400 !important;
         color: #fff;
         margin-top: 2px;
         margin-bottom: 2px;
-        font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifS;
+        
     }
 
     #header .nav-link{
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+        font-weight: 400 !important;
         text-transform: uppercase;
-        font-size: 80%;
+        font-size: 70%;
         padding-left: 0;
         padding-right: 0;
         color: whitesmoke;
-        font-family: "Roboto Flex";
-        border-bottom: solid 4px transparent;   
+          
     }
-
+  
+   
     #header .navbar-toggler{
-        font-family: "Roboto Flex";
+        font-family: "Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif";
+        font-weight: 400 !important;
         border-color: var(--colorbtnmenu);
         border-width: 2px;
        
@@ -76,7 +83,8 @@
 
     #header .nav-link:hover{
         color: var(--hovernavbar);
-        font-family: "Roboto Flex";
+        font-family: "Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif";
+        font-weight: 400 !important;
        
     }
  
@@ -117,17 +125,22 @@
     }
 
     #text-about{
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
         margin-left: 5%;
         margin-bottom: 3rem;
     }
 
     #p-text-sobre-doctorlar{
-        font-size: 110%;
+        font-weight: 400 !important;
+        line-height: 1.75;
+        font-size: 100%;
         text-align: justify;
+      
     }
 
     #text-about-doctorlar{
         text-align: justify;
+       
     }
 
     #img-doctorlar{
@@ -168,12 +181,12 @@
 
     #figuresone{
         margin-left: 1.8rem;
-        margin-top: 3rem;
+        margin-top: 1rem;
         margin-bottom: 3.5rem;
     }
     
     #img-mission{
-        margin-left: 1rem;
+        margin-left: 2.5rem;
         margin-bottom: 0rem;
         margin-top: -0.5rem;
     }
@@ -194,25 +207,35 @@
         margin-top: -3rem;
     }
 
-    h3.figuresone{
-        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    }
   
     #p-mission{
-        text-align: justify;
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        line-height: 1.75;
+        font-weight: 400 !important;
+       
         margin-left: 0rem;
-        font-size: 100%;
-        padding: 0 1rem 0 0;
+        font-size: 99% !important;
+        padding: 0 1rem 0rem 1.5rem;
+        margin-bottom: 2rem !important;
+        
     }
 
     #p-vision{
-        text-align: justify;
-        margin-left: 0rem;
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        line-height: 1.75;
+        font-weight: 400 !important;
+      
+        margin-left: -1.5rem;
+        font-size: 99% !important;
+        margin-bottom: 2rem !important
     }
 
     #p-value{
-        text-align: justify;
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        line-height: 1.75;
+        font-weight: 400 !important;
         margin-left: 0rem;
+        font-size: 99% !important;
         padding: 0 1rem 0 0;   
     }
 
@@ -226,7 +249,7 @@
         margin-bottom: 1.3rem;
         margin-top: 0.5rem;
         text-transform: uppercase;
-        margin-left: 0.2rem;
+        margin-left: 0.7rem;
     }
 
     #h3vision{
@@ -296,9 +319,7 @@
         margin-left: 2rem;
         font-size: 79%;
         border-color: var(--bordercolorgrey);
-
     }
-
     
     #imghouse{
         margin-left: 3rem;
@@ -311,17 +332,32 @@
 
     }
     #pcardtexthouse{
-      text-align: justify;
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        line-height: 1.75;
+        font-weight: 400 !important;
+        text-align: justify;
         margin-top: 0.8rem;
+        font-size: 125%;
 
     }
     #pcardtextele{
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        line-height: 1.75;
+        font-weight: 200 !important;
         text-align: justify;
         margin-top: 0.8rem;
+        font-size: 125%;
+    }
+    #pcardmedicocelular{
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        line-height: 1.75;
+        font-weight: 400 !important;
+        font-size: 125%;
+        text-align: justify;
     }
 
     #imgmedicocelular{
-        margin-left: 2.5rem;
+        margin-left: 4.5rem;
         margin-top: 1rem;
     }
 
@@ -345,6 +381,7 @@
     #hr-maisservicos{
         color: var(--hrservices);
         margin-top: 2rem;
+        height: 13px;
     }
 
     #mais-servicos{
@@ -404,7 +441,7 @@
     }
 
     #img-bandeira{
-        margin-left: 3.5rem;   
+        margin-left: 5rem;   
     } 
 
     #h6-card-bandeira{
@@ -414,7 +451,7 @@
 
 
     #img-certo{
-        margin-left: 3rem;
+        margin-left: 4rem;
         margin-bottom: 0.rem;
     }
 
@@ -424,7 +461,7 @@
     }
 
     #img-prontuario{
-        margin-left: 2rem; 
+        margin-left: 3rem; 
 
     }
 
@@ -441,7 +478,7 @@
     }
 
     #img-hospital{
-        margin-left: 4rem;
+        margin-left: 5.5rem;
     }
     #h6-card-hospital{
         margin-top: -0.7rem;
@@ -449,30 +486,30 @@
     }
 
     #img-carro{
-        margin-top: 0.5rem;
-        margin-left: 3.5rem;
-        margin-bottom: -0.8rem;
+        margin-top: 0rem;
+        margin-left: 4.7rem;
+        margin-bottom: -0.5rem;
+       
     }
 
     #h6-card-carro{
-        margin-top: -0.7rem;
         margin-bottom: 0.8rem; 
     }
 
     #img-lab{
         margin-top: 1rem;
-        margin-left: 3rem;
+        margin-left: 2.8rem;
         margin-bottom: -0.5rem;
     }
 
     #cards-figures-four{
-        margin-left: -1rem;
+        margin-left: -3rem;
         margin-top: 5rem;
         font-size: 95%;
     }
 
     #img-wlabel{
-        margin-left: 3.5rem;
+        margin-left: 5rem;
         margin-top: 0.7rem;
         margin-bottom: -0.8rem;
     }
@@ -480,6 +517,27 @@
     #img-remedio{
         margin-top: 0.5rem;
         margin-left: 2.5rem;
+    }
+
+    #cards-figures-two p{
+        font-size: 13px;
+        line-height: 1.75;
+        font-weight: 400 !important;
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+
+    #cards-figures-three p{
+        font-size: 13px;
+        line-height: 1.75;
+        font-weight: 400 !important;
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+
+    #cards-figures-four p{
+        font-size: 13px;
+        line-height: 1.75;
+        font-weight: 400 !important;
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
 
 
@@ -519,14 +577,10 @@
         margin-top: 1rem;
         color: var(--titulos2);
     }
-
-    #p-para-pacientes{
-       
-        color: var(--pretosuave);
-    }
-
-    #p-para-medicos{
-        
+    #videosdoc p{
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        line-height: 1.75;
+        font-weight: 400 !important;
         color: var(--pretosuave);
     }
 
@@ -535,10 +589,14 @@
         margin-top: 3rem;
         color:var(--pretosuave);
         margin-bottom: 2rem;
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
 
     #a-faq{
-        color: var(--titulos)
+        line-height: 1.75;
+        font-weight: 400 !important;
+        color: var(--titulos);
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
 
     #h2-faca-parte-medicos{
@@ -547,12 +605,16 @@
     }
 
     #p-faca-parte-medicos{
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        line-height: 1.75;
+        font-weight: 400 !important;
         padding: 1rem;
         justify-content: center;
         color: var(--pretosuave);
     }
 
     #medico-felipe{
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -561,12 +623,14 @@
     }
 
     #h2-medico-felipe{
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         justify-content: center;
         color: rgba(39, 38, 38, 0.925);
     }
 
 
     #medica-amanda{
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -575,12 +639,14 @@
     }
 
     #medico-doctorlar{
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         text-align: center;
         justify-items: center;
         color: rgba(17, 16, 16, 0.39);
     }
 
     #medica-doctorlar{
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         text-align: center;
         justify-items: center;
         color: rgba(17, 16, 16, 0.39);
@@ -732,75 +798,24 @@
         margin-bottom: 8rem;
     }
 
-    #img-drmohamad{
+    #nossotime img{
         border-radius: 0 7rem 0 0;
-    
-    }
-    .sobre-drmohamad{
-        text-align: justify;
+    } 
+
+    #nossotime h6{
+        color: var(--pretosuave);
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
 
-    #h6-drmohamad{
-        color: var(--pretosuave);
-    }
-    #p-drmohamad{
+    #nossotime p{
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        line-height: 1.75;
         padding: 0 1rem 0 0;
         color: var(--pretotextoclaro);
-    }
-
-    #img-edy{
-        border-radius: 0 7rem 0 0;
-    }
-    .sobre-edy{
         text-align: justify;
     }
 
-    #h6-edy{
-        color: var(--pretosuave);
-    }
-    #p-edy{
-        padding: 0 1rem 0 0;
-        color:var(--pretotextoclaro);
-    }
-
-    #luiz-marco{
-        margin-top: 2rem;
-    }
-
-    #img-luiz{
-        border-radius: 0 7rem 0 0;
-    }
-
-    .sobre-luiz{
-        text-align: justify;
-    }
-
-    #h6-luiz{
-        color: var(--pretosuave);
-    }
-
-    #p-luiz{
-        padding: 0 1rem 0 0;
-        color:var(--pretotextoclaro);
-    }
-
-    #img-marco{
-        border-radius: 0 7rem 0 0;
-    }
-
-    .sobre-marco{
-        text-align: justify;
-    }
-
-    #h6-marco{
-        color: var(--pretosuave);
-    }
-
-    #p-marco{
-        padding: 0 1rem 0 0;
-        color:var(--pretotextoclaro)  
-    }
-
+    
 
 
 /*contato form*/

@@ -37,6 +37,12 @@
        #a-button-cadastro-responsive{
         display: none !important
        }
+       #cards-text-one-responsive{
+        display: none !important;
+       }
+       #figures-responsive {
+        display: none !important;
+       }
     }
 
     @media (max-width: 580px) {
@@ -83,21 +89,10 @@
     }
     @media (min-width:767px){
         
-        #p-drmohamad{
+        #nossotime p{
             width: 100%;
-         }
-        #p-edy{
-            width: 100%;
-         }
-        #p-luiz{
-            width: 100%;
-         }
-        #p-marco{
-            width: 100%;
-            }
         }
-    
-
+    }
     @media (max-width:490px){
         #card-alinhar{
             margin-left: 1rem;
@@ -129,22 +124,34 @@
          #a-button-cadastro{
             display: none!important;
          }
-
+         #cards-text-one{
+            display: none!important;
+         }
+         #cards-figures-two{
+            display: none!important;
+         }
+         #cards-figures-three{
+            display: none!important;
+         }
+         #cards-figures-four{
+            display: none!important;
+         }
+       
         #text-about-doctorlar{
         text-align: center;
         font-size: 210%;
-        
         }
 
         #p-text-sobre-doctorlar{
             text-align: justify;
-           
+            font-size: 150% !important
         }
 
         #img-doctorlar{
             width: 70%;
             height: 80%;
         }
+
         #h3mission{
             font-size: 210%;
             margin-left: 1.5rem;
@@ -160,14 +167,17 @@
             margin-top: -0.5rem;
         }
         #p-mission{
-            font-size: 140%;
+            font-size: 160% !;
            
         }
         #p-vision{
-            font-size: 140%;
+            font-size: 160%;
+            
         }
         #p-value{
-            font-size: 140%;
+            font-size: 160%;
+            margin-left: 4rem !important;
+
         }
         #img-mission{
             width: 95px;
@@ -188,26 +198,32 @@
         #cards-figures-two{
             margin-top: -0.8rem;
         }
+      
 
         #cards-figures-three{
+           
             margin-top: 0.5rem;
         }
 
         #cards-figures-four{
+            
             margin-top: 0.5rem;
             margin-bottom: 6rem;
+        }
+        #card-alinhar p{
+            font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         }
 
         #slider{
             margin-left: 3rem;
         }
+
         
         #h5-duvidas{
             margin-left: 1rem;
         }
 
         #moreservices
-
         #time-responsive
         .responvive-sobre
         .redes-sociais
@@ -221,6 +237,24 @@
         }
         #time-responsive{
             margin-bottom: 3rem;
+        }
+        #nossotimers img{
+            border-radius: 0 7rem 0 0;
+        } 
+    
+        #nossotimers h6{
+            color: var(--pretosuave);
+            font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 145%;
+        }
+    
+        #nossotimers p{
+            font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 1.75;
+            padding: 0 1rem 0 0;
+            color: var(--pretotextoclaro);
+            text-align: justify;
+            font-size: 155%;
         }
 
         #button-tw-responsive{
@@ -253,10 +287,12 @@
             justify-content: center;
             margin-top: -1rem;
             padding: 1rem;
-            width: 200px;
+            width: 210px;
+            height: 60px;
             background-color: var(--botoeslaranja);
             border: solid transparent;
             border-radius: 4px;
+            font-size: 120%;
         }
         #span-wpp img{
             width: 75px;
@@ -270,6 +306,7 @@
             margin-right: -6rem;
             filter:grayscale(15%);
         }
+    
         #span-wpp{
             position: fixed;
             font-size: 19px;
@@ -281,6 +318,12 @@
         #span-wpp:hover{
             filter: contrast(130%);
         }
+        #figures-responsive{
+            margin-left: -8rem !important;
+        }
+       #cardes-rs{
+        width: 90% !important;
+       }
         }
         
 
@@ -305,7 +348,7 @@
             width: 100%;
             text-align: justify;
             margin-right:  3rem;
-            font-size: 140%;
+            font-size: 160%;
             margin-top: -0.2rem;  
          }
 
@@ -316,6 +359,7 @@
         #media-form
 
         #h2-fale-conosco-responsive
+        #cards-text-one-responsive
      
         #p-vision{
             margin-right:  2rem;
@@ -336,6 +380,298 @@
         p#menu{
         font-size: 120%;
         }
+
+
+        #h6-card-bandeira{
+            font-size: 175%;
+        }
+        #p-card-bandeira{
+            font-size: 160%;
+        }
+       #p-card-bandeira:hover{
+            margin-bottom: 1.5rem;
+        }
+        #img-bandeira{
+           margin-left: rem;
+           width: 125px;
+           height: 125px;
+        }
+
+        #h6-card-certo{
+            font-size: 180%;
+        }
+        #p-card-certo{
+            font-size: 160%;
+        }
+        #img-certo{
+            margin-left: 5.5rem;
+            width: 130px;
+            height: 125px;
+        }
+
+        #h6-card-prontuario{
+            font-size: 180%;
+        }
+        #p-card-prontuario{
+            font-size: 165%;
+        }
+        #p-card-prontuario:hover{
+            margin-bottom: 1rem;
+            width: 100%;
+        }
+        #img-prontuario{
+            margin-left: 4rem;
+            margin-top: 1rem;
+            width: 180px;
+            height: 125px;
+        }
+
+        #h6-card-hospital{
+            font-size: 185%;
+        }
+        #p-card-hospital{
+            font-size: 165%;
+        }
+
+        #img-hospital{
+            margin-left: 5.2rem;
+            width: 125px;
+            height: 125px;
+        }
+
+        #h6-card-carro{
+            font-size: 180%;
+        }
+        #p-card-carro{
+            font-size: 165%;
+            margin-bottom: 1.5rem;
+        }
+       
+        #img-carro{
+            margin-left: 5.2rem;
+            width: 160px !important;
+            height: 140px;
+            margin-top: 1rem;
+            margin-bottom: -1.2rem !important;
+        }
+
+        #h6-card-lab{
+            margin-top: 1rem;
+            font-size: 180%;
+        }
+        #p-card-lab{
+            font-size: 165%
+        }
+        #img-lab{
+            margin-left: 5.5rem;
+            width: 145px;
+            height: 125px;
+        }
+
+        #h6-card-wlabel{
+            font-size: 185%;
+        }
+        #p-card-wlabel{
+            font-size: 165%;
+            margin-bottom: 3rem;
+        }
+        #img-wlabel{
+            margin-left: 15rem !important;
+            margin-top: 2rem;
+            width: 125px;
+            height: 125px;
+        }
+
+        #h6-card-remedio{
+            margin-top: 1rem;
+            font-size: 185%;
+        }
+        #p-card-remedio{
+            font-size: 165%;
+        }
+        #img-remedio{
+            margin-top: 3rem;
+            margin-left: 5rem;
+            width: 145px;
+            height: 145px;
+        }
+
+        #first-cardes{
+            width: 100% !important;
+           
+        }
+
+        #medico-card-celular{
+            width: 100% !important;
+            margin-top: 2rem;
+          
+        }
+
+        #house-card{
+            width: 100% !important;
+            margin-top: 1rem;
+            height: 97%;
+        }
+
+        #h5cardtitlehouse{
+            font-size: 165%;
+        }
+
+        #h5tele{
+            font-size: 180%;
+        }
+
+        #h5cardmedicocelular{
+            font-size: 180%;
+        }
+
+        #pcardtexthouse{
+              font-size: 165%;
+        }
+
+        #pcardtextele{
+              font-size: 165%;
+        }
+        #pcardmedicocelular{
+            font-size: 165%;
+        }
+        #imgtel{
+            margin-left: 12rem;
+        }
+        #imgmedicocelular{
+            margin-left: 16rem;
+            width: 200px;
+            height: 260px;
+            
+        }
+        #imghouse{
+            margin-left: 15rem;
+        }
+
+        #h5-para-pacientes{
+            font-size: 160% !important
+        }
+        #p-para-pacientes{
+            font-size: 160% !important
+        }
+        #h5-para-medicos{
+            font-size: 130% !important
+        }
+        #p-para-medicos{
+            font-size: 130% !important
+        }
+        #h5-duvidas{
+            font-size: 130% !important
+        }
+
+        #p-faca-parte-medicos{
+            font-size: 165% !important
+        }
+
+        #video-paciente{
+            width: 100% !important;
+        }
+        #video-medico{
+            width: 100% !important;
+        }
+        #cardes-rs{
+            border: #efeffa;
+            
+            margin-top: 2rem !important;
+        }
+        
+           
+        
+            #card-alinhar{
+                margin-left: 4rem !important;
+             }
+             #card-alinhar3{
+                margin-left: 4rem;
+             }
+        
+            #cardes-rs:hover{
+                padding: 0 15px;
+                background: #fff;
+                display: flex;
+                justify-content: center;
+                border: solid 1px var(--fourth);
+                height: 290px;
+                transform: ease-out all 0.2s;
+                margin-left: 0.2rem;
+            }
+        
+            #cardes-rs:hover{
+                transform: scale(1.2);
+                box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.281);
+                border-bottom: solid 4px rgb(255, 255, 255);
+            }
+        
+            #cardes-rs:hover img{
+                filter: none; 
+                opacity: 100%;
+                filter: contrast(120%);
+                
+            }
+        
+            #cardes-rs img{
+                filter: var( --sixty);
+                opacity: 0.6;
+            }
+
+            #img-mission{
+                margin-left: 12rem;
+            }
+
+            #colmission{
+                margin-left: 17rem;
+            }
+            #p-mission{
+                margin-left: 2rem;
+                font-size: 23px !important;
+               
+            }
+
+            #img-vision{
+                margin-left: 12rem;
+            }
+
+            #colvision{
+                margin-left: 17.9rem;
+            }
+            #p-vision{
+                margin-left: 7rem;
+                font-size: 23px !important;
+            }
+
+            #img-value{
+                margin-left: 12rem;
+            }
+
+            #h3value{
+                margin-left: 12.5rem;
+            }
+            #p-value{
+                margin-left: 2rem;
+                font-size: 23px !important;
+            }
+            #serviceshtwo{
+                font-size: 37px !important;
+            }
+
+            #h2-como-funciona{
+                font-size: 35px !important;
+            }
+            #h2-faca-parte-medicos{
+                font-size: 35px !important;
+            }
+            #h2-parceiros{
+                font-size: 35px !important;
+            }
+            #h2-fale-conosco-responsive{
+                font-size: 35px !important;
+            }
+
+          
     }
 
 
@@ -428,5 +764,25 @@
             font-size: 135%;
         }
     
+    }
+    @media (max-width:765px){
+        #imgtel{
+            margin-left: 9rem;
+        }
+        
+        #imgmedicocelular{
+            margin-left: 9rem;
+            width: 280px;
+            height: 390px;
+        }
+        #imghouse{
+            margin-left: 9rem;
+        }
+        #house-card{
+            margin-left: 0rem !important
+        }
+        #medico-card-celular{
+            width: 105% !important
+        }
     }
    
