@@ -712,7 +712,7 @@ video#video-medico {
 
 }
 a-dw{
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 #apple-button {
