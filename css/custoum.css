@@ -693,7 +693,7 @@ video#video-medico {
 /*dowload app*/
 #h4-baixe-aplicativo {
   margin-top: 8rem;
-  margin-bottom: -1rem;
+  margin-bottom: 3rem;
   color: var(--sixty);
   text-transform: uppercase;
 }
@@ -706,9 +706,13 @@ video#video-medico {
   align-items: center;
   border-radius: 30%;
   overflow: hidden;
-  background-color: #fff;
+  background: none;
   border: none;
   display: inline-flex;
+
+}
+a{
+  text-decoration: none;
 }
 
 #apple-button {
@@ -716,9 +720,10 @@ video#video-medico {
   padding: 1rem;
   border-radius: 30%;
   overflow: hidden;
-  background-color: #fff;
+  background: none;
   border: none;
   display: inline-flex;
+ 
 }
 
 /*parceiros*/
